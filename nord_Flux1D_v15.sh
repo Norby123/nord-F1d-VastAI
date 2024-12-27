@@ -225,11 +225,7 @@ function provisioning_download() {
     fi
 }
 
-sleep 5s
-
- # Add the Hugging Face CLI command
+ # Adding the Hugging Face CLI command
     /opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
-	
-sleep 5s
 	
 provisioning_start

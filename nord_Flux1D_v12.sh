@@ -19,11 +19,11 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/city96/ComfyUI-GGUF"
-	"https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/talesofai/comfyui-browser"
-	"https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/rgthree/rgthree-comfy"
 )
 
 CHECKPOINT_MODELS=(
@@ -32,12 +32,12 @@ CHECKPOINT_MODELS=(
 
 CLIP_MODELS=(
     "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors"
-	"https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf"
+    "https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf"
 )
 
 UNET_MODELS=(
     "https://civitai.com/api/download/models/943891?type=Model&format=GGUF&size=full&fp=fp8"
-	"https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"  
+    "https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"  
 )
 
 VAE_MODELS=(

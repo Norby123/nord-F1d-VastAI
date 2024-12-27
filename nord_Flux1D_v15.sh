@@ -36,6 +36,7 @@ CLIP_MODELS=(
 
 UNET_MODELS=(
     "https://civitai.com/api/download/models/943891?type=Model&format=GGUF&size=full&fp=fp8"
+    "https://civitai.com/api/download/models/943716?type=Model&format=SafeTensor&size=full&fp=fp16"
 	"https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"  
 )
 

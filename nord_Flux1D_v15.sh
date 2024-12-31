@@ -24,6 +24,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/talesofai/comfyui-browser"
 	"https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/yolain/ComfyUI-Easy-Use"
      "https://github.com/logtd/ComfyUI-Fluxtapoz"
 )
 

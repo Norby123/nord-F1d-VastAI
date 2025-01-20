@@ -30,20 +30,16 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
-    "https://civitai.com/api/download/models/1256154?type=Model&format=SafeTensor&size=pruned&fp=bf16"
-    "https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"
-    "https://civitai.com/api/download/models/1138590?type=Model&format=SafeTensor&size=full&fp=fp8"
-    "https://civitai.com/api/download/models/992642?type=Model&format=SafeTensor&size=full&fp=fp8"
-)
+    )
 
 CLIP_MODELS=(
     "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-BEST-smooth-GmP-TE-only-HF-format.safetensors"
+    "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors"
 	"https://huggingface.co/city96/t5-v1_1-xxl-encoder-gguf/resolve/main/t5-v1_1-xxl-encoder-Q8_0.gguf"
 )
 
 UNET_MODELS=(
-    "https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-gguf/resolve/main/flux1-fill-dev-Q8_0.gguf"
-    "https://civitai.com/api/download/models/943891?type=Model&format=GGUF&size=full&fp=fp8"
+    "https://civitai.com/api/download/models/992642?type=Model&format=GGUF&size=full&fp=fp8" 
 )
 
 VAE_MODELS=(

@@ -29,6 +29,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
+    "https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+    "https://civitai.com/api/download/models/1256154?type=Model&format=SafeTensor&size=pruned&fp=bf16"
 )
 
 CLIP_MODELS=(

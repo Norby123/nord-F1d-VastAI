@@ -31,6 +31,9 @@ NODES=(
 CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
     "https://civitai.com/api/download/models/1256154?type=Model&format=SafeTensor&size=pruned&fp=bf16"
+    "https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"
+    "https://civitai.com/api/download/models/1138590?type=Model&format=SafeTensor&size=full&fp=fp8"
+    "https://civitai.com/api/download/models/992642?type=Model&format=SafeTensor&size=full&fp=fp8"
 )
 
 CLIP_MODELS=(
@@ -39,9 +42,8 @@ CLIP_MODELS=(
 )
 
 UNET_MODELS=(
+    "https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-gguf/resolve/main/flux1-fill-dev-Q8_0.gguf"
     "https://civitai.com/api/download/models/943891?type=Model&format=GGUF&size=full&fp=fp8"
-    "https://civitai.com/api/download/models/943716?type=Model&format=SafeTensor&size=full&fp=fp16"
-	"https://civitai.com/api/download/models/943787?type=Model&format=SafeTensor&size=full&fp=fp8"  
 )
 
 VAE_MODELS=(

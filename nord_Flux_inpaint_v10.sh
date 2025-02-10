@@ -53,7 +53,6 @@ UNET_MODELS=(
 	"https://civitai.com/api/download/models/1308053?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 	"https://civitai.com/api/download/models/1389019?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 	"https://civitai.com/api/download/models/1388654?type=Model&format=SafeTensor&size=full&fp=fp8"
-	"https://civitai.com/api/download/models/1327418?type=Model&size=pruned&fp=fp16"
 	"https://huggingface.co/YarvixPA/FLUX.1-Fill-dev-gguf/resolve/main/flux1-fill-dev-Q8_0.gguf"
 )
 

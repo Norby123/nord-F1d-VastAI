@@ -46,13 +46,13 @@ CLIP_MODELS=(
 )
 
 UNET_MODELS=(
-	"https://civitai.com/api/download/models/1326477?type=Model&format=GGUF&size=full&fp=fp16"
-	"https://civitai.com/api/download/models/1256154?type=Model&format=SafeTensor&size=pruned&fp=bf16"
-	"https://civitai.com/api/download/models/1389019?type=Model&format=SafeTensor&size=pruned&fp=fp8"
-	"https://civitai.com/api/download/models/1327418?type=Model&size=pruned&fp=fp16"
-     	"https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+	#"https://civitai.com/api/download/models/1326477?type=Model&format=GGUF&size=full&fp=fp16"
+	#"https://civitai.com/api/download/models/1256154?type=Model&format=SafeTensor&size=pruned&fp=bf16"
+	#"https://civitai.com/api/download/models/1389019?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+	#"https://civitai.com/api/download/models/1327418?type=Model&size=pruned&fp=fp16"
+     	#"https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
   	"https://civitai.com/api/download/models/1606815?type=Model&format=SafeTensor&size=full&fp=fp8"
-	"https://civitai.com/api/download/models/1576605?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+	#"https://civitai.com/api/download/models/1576605?type=Model&format=SafeTensor&size=pruned&fp=fp8"
  	"https://civitai.com/api/download/models/1539776?type=Model&format=SafeTensor&size=full&fp=bf16"   
 )
 
@@ -71,7 +71,7 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://huggingface.co/Kijai/DepthAnythingV2-safetensors/resolve/main/depth_anything_v2_vitl_fp32.safetensors"
+    #"https://huggingface.co/Kijai/DepthAnythingV2-safetensors/resolve/main/depth_anything_v2_vitl_fp32.safetensors"
 	
 
 )

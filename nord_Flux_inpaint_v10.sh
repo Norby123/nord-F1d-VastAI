@@ -33,6 +33,8 @@ NODES=(
 	"https://github.com/sipherxyz/comfyui-art-venture"
 	"https://github.com/wallish77/wlsh_nodes"
 	"https://github.com/crystian/ComfyUI-Crystools"
+     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+     "https://github.com/XLabs-AI/x-flux-comfyui"
 )
 
 CHECKPOINT_MODELS=(

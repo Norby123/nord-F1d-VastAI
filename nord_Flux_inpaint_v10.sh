@@ -55,7 +55,7 @@ UNET_MODELS=(
      	#"https://civitai.com/api/download/models/1171942?type=Model&format=SafeTensor&size=pruned&fp=fp8"
   	"https://civitai.com/api/download/models/1606815?type=Model&format=SafeTensor&size=full&fp=fp8"
 	#"https://civitai.com/api/download/models/1576605?type=Model&format=SafeTensor&size=pruned&fp=fp8"
- 	"https://civitai.com/api/download/models/1539776?type=Model&format=SafeTensor&size=full&fp=bf16"   
+ 	#"https://civitai.com/api/download/models/1539776?type=Model&format=SafeTensor&size=full&fp=bf16"   
 )
 
 VAE_MODELS=(

@@ -59,6 +59,10 @@ CHECKPOINT_MODELS=(
   "https://civitai.com/api/download/models/789646?type=Model&format=SafeTensor&size=full&fp=fp16"
   #RealVisXL v5 - fp32
   "https://civitai.com/api/download/models/789646?type=Model&format=SafeTensor&size=full&fp=fp32"
+  #BriXL v5 - FP16 
+  "https://civitai.com/api/download/models/239362?type=Model&format=SafeTensor&size=full&fp=fp16"
+  #Brixl v3 -BF16
+  "https://civitai.com/api/download/models/148138?type=Model&format=SafeTensor&size=full&fp=bf16"
 
 )
 

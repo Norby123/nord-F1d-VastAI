@@ -61,6 +61,8 @@ CHECKPOINT_MODELS=(
   "https://civitai.com/api/download/models/148138?type=Model&format=SafeTensor&size=full&fp=bf16"
   #CyberRealistic Pony v9.0-Alt-1
   "https://civitai.com/api/download/models/1691220?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+  #RandomMaxx Merge Model v.4 ColorBomb
+  "https://civitai.com/api/download/models/545973?type=Model&format=SafeTensor&size=pruned&fp=fp16"
 
 )
 

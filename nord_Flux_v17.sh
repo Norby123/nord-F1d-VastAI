@@ -330,9 +330,9 @@ function provisioning_download() {
 # pip install -U --pre triton
 #maybe# pip install -U xformers
 
-"$COMFYUI_VENV_PIP" uninstall -y torch torchvision torchaudio
-"$COMFYUI_VENV_PIP" install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-"$COMFYUI_VENV_PIP" install -U --pre triton
+# "$COMFYUI_VENV_PIP" uninstall -y torch torchvision torchaudio
+# "$COMFYUI_VENV_PIP" install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+# "$COMFYUI_VENV_PIP" install -U --pre triton
 # "$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start

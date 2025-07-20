@@ -77,9 +77,9 @@ CHECKPOINT_MODELS=(
 #    "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #Albedo 3.1-Large
 #    "https://civitai.com/api/download/models/1041855?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #EpicUltraHD
+    #EpicUltraHD (deleted)
 #    "https://civitai.com/api/download/models/784834?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #888XL
+    #888XL (deleted)
 #    "https://civitai.com/api/download/models/1675725?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #Araminta Fv5
 #    "https://civitai.com/api/download/models/1536255?type=Model&format=SafeTensor&size=pruned&fp=fp16"
@@ -329,10 +329,5 @@ function provisioning_download() {
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 # pip install -U --pre triton
 #maybe# pip install -U xformers
-
-# "$COMFYUI_VENV_PIP" uninstall -y torch torchvision torchaudio
-# "$COMFYUI_VENV_PIP" install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-# "$COMFYUI_VENV_PIP" install -U --pre triton
-# "$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start

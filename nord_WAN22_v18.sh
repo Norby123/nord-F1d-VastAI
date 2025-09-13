@@ -594,7 +594,7 @@ function provisioning_get_huggingface_models() {
 
 
  # Adding the Hugging Face CLI command
-    /opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
+#    /opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 
 #    /opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/forArt --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/forArt
 	
@@ -643,3 +643,4 @@ function provisioning_get_huggingface_models() {
 # "$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start
+

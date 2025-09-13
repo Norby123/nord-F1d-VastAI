@@ -132,9 +132,9 @@ UNET_MODELS=(
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
-	"https://civitai.com/api/download/models/711305?type=Model&format=SafeTensor"
-	"https://huggingface.co/lovis93/testllm/resolve/ed9cf1af7465cebca4649157f118e331cf2a084f/ae.safetensors"
+#    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors"
+#	"https://civitai.com/api/download/models/711305?type=Model&format=SafeTensor"
+#	"https://huggingface.co/lovis93/testllm/resolve/ed9cf1af7465cebca4649157f118e331cf2a084f/ae.safetensors"
 	#"https://huggingface.co/NorbyXL/vae/resolve/main/ponyStandardVAE_v10.safetensors"
 	#"https://huggingface.co/NorbyXL/vae/resolve/main/vae-ft-MSE(picivel_jobb)-840000-ema-pruned.ckpt"
 	"https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors"
@@ -600,36 +600,35 @@ function provisioning_get_huggingface_models() {
 	
 #	/opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/Flux
 
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.1_ComfyUI_repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/text_encoders \
-    --include "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+#    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.1_ComfyUI_repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/text_encoders \
+#    --include "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/vae \
-    --include "split_files/vae/wan_2.1_vae.safetensors"
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/vae \
+#    --include "split_files/vae/wan_2.1_vae.safetensors"
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
-    --include "split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
+#    --include "split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
-    --include "split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
+#    --include "split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/loras \
-    --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors"
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/loras \
+#    --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors"
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-    --cache-dir $WORKSPACE/.cache \
-    --local-dir $WORKSPACE/ComfyUI/models/loras \
-    --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
-
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
+#    --cache-dir $WORKSPACE/.cache \
+#    --local-dir $WORKSPACE/ComfyUI/models/loras \
+#    --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
 
 
 # pip uninstall -y torch torchvision torchaudio
@@ -643,4 +642,5 @@ function provisioning_get_huggingface_models() {
 # "$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start
+
 

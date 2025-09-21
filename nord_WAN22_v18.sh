@@ -606,7 +606,7 @@ function provisioning_get_huggingface_models() {
 	
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/diffusion_models --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/diffusion_models
 	
-	/opt/environments/python/comfyui/bin/hf download NorbyXL/text_encoders --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/text_encoders
+	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/text_encoders --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/text_encoders
 
 # pip uninstall -y torch torchvision torchaudio
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
@@ -619,3 +619,4 @@ function provisioning_get_huggingface_models() {
 # "$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start
+

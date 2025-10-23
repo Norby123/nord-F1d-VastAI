@@ -167,6 +167,14 @@ LORA_MODELS=(
 	"https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Edit-2509/Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors"
 	# Qwen-Image-Lightning-4steps-V1.0
 	"https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors"
+	# Childish - CE
+	"https://civitai.com/api/download/models/2333541?type=Model&format=SafeTensor"
+	# QWEN DOODLE INK TATTOO
+	"https://civitai.com/api/download/models/2322757?type=Model&format=SafeTensor"
+	# Jib's Qwen Nudity Fixer Lora
+	"https://civitai.com/api/download/models/2199719?type=Model&format=SafeTensor"
+	# SamsungCam UltraReal
+	"https://civitai.com/api/download/models/2270374?type=Model&format=SafeTensor"
 	
 
 )
@@ -191,6 +199,8 @@ DIFFUSION_MODELS=(
     "https://huggingface.co/Comfy-Org/Qwen-Image-Edit_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_edit_2509_fp8_e4m3fn.safetensors"
 	"https://huggingface.co/Comfy-Org/lotus/resolve/main/lotus-depth-d-v1-1.safetensors"
 	"https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors"
+	"https://civitai.com/api/download/models/2315751?type=Model&format=SafeTensor&size=pruned&fp=fp8"
+	"https://civitai.com/api/download/models/2336581?type=Model&format=SafeTensor&size=pruned&fp=fp8"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
@@ -421,3 +431,4 @@ aria2c -x16 -s16 --dir="$WORKSPACE/ComfyUI/models/vae" \
 
 	
 provisioning_start
+

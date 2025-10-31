@@ -39,6 +39,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
+  # Illustrious
+  "https://civitai.com/models/827184?modelVersionId=2167369"
   #ICBINP
   "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   #Albedo 3.1-Large
@@ -88,7 +90,12 @@ VAE_MODELS=(
 )
 
 LORA_MODELS=(
-    
+    # Dungeons and Dragons [D&D] 5e Style - High Fantasy
+    "https://civitai.com/api/download/models/2361123?type=Model&format=SafeTensor"
+	# Caradhras~3dcg style
+	"https://civitai.com/api/download/models/2362156?type=Model&format=SafeTensor"
+	# Dawnbringer Soraka / League of Legends
+	"https://civitai.com/api/download/models/2362235?type=Model&format=SafeTensor"
 )
 
 ESRGAN_MODELS=(
@@ -285,3 +292,4 @@ function provisioning_download() {
 	--local-dir "$WORKSPACE/ComfyUI/models/checkpoints"	
 	
 provisioning_start
+

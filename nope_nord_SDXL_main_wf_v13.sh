@@ -40,6 +40,8 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
+  # WAI-illustrious-SDXL v15
+  "https://civitai.com/api/download/models/2167369?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   #ICBINP
   "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   #Albedo 3.1-Large
@@ -294,3 +296,4 @@ function provisioning_download() {
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/checkpoints --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/checkpoints
 	
 provisioning_start
+

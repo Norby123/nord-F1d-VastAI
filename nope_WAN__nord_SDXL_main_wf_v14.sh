@@ -187,7 +187,26 @@ LORA_MODELS=(
 	"https://civitai.com/api/download/models/1642682?type=Model&format=SafeTensor"
 	#WAN2.1 FUTANARI
 	"https://civitai.com/api/download/models/1636171?type=Model&format=SafeTensor"
-	
+	# I2V POV Face Sitting highh
+	"https://civitai.com/api/download/models/2383654?type=Model&format=SafeTensor"
+	# I2V POV Face Sitting highh
+	"https://civitai.com/api/download/models/2383643?type=Model&format=SafeTensor"
+	# Crawling Away high
+	"https://civitai.com/api/download/models/2380479?type=Model&format=SafeTensor"
+	# Crawling Away low
+	"https://civitai.com/api/download/models/2380487?type=Model&format=SafeTensor"
+	# Missionary Sex - Multiple Angles (T2V & I2V) High
+	"https://civitai.com/api/download/models/2176194?type=Model&format=SafeTensor"
+	# Missionary Sex - Multiple Angles (T2V & I2V) Low
+	"https://civitai.com/api/download/models/2176200?type=Model&format=SafeTensor"
+	# WAN2.2 TWERK High
+	"https://civitai.com/api/download/models/2376253?type=Model&format=SafeTensor"
+	# WAN2.2 TWERK Low
+	"https://civitai.com/api/download/models/2376296?type=Model&format=SafeTensor"
+	# Pronebone Sex Position High
+	"https://civitai.com/api/download/models/2364056?type=Model&format=SafeTensor"
+	# Pronebone Sex Position Low
+	"https://civitai.com/api/download/models/2364069?type=Model&format=SafeTensor"
 	
 )
 
@@ -413,3 +432,4 @@ function provisioning_download() {
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/WAN2 --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 	
 provisioning_start
+

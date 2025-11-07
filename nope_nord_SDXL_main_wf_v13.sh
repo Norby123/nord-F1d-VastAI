@@ -294,6 +294,8 @@ function provisioning_download() {
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/nope --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/Embeddings --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/embeddings
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/checkpoints --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/checkpoints
+	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/forArt --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 	
 provisioning_start
+
 

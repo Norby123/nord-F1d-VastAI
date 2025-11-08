@@ -430,6 +430,8 @@ function provisioning_download() {
 	--local-dir "$WORKSPACE/ComfyUI/models/clip_vision"	
 	
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/WAN2 --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
+	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/WAN_2_2_Loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 	
 provisioning_start
+
 

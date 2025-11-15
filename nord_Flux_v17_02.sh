@@ -327,7 +327,7 @@ function provisioning_download() {
 
 #    /opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/forArt --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/forArt
 	
-	/opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/Flux
+#	/opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/Flux
 
 
 # pip uninstall -y torch torchvision torchaudio
@@ -337,3 +337,4 @@ function provisioning_download() {
 
 	
 provisioning_start
+

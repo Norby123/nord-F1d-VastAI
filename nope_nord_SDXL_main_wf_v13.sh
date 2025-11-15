@@ -70,7 +70,10 @@ CHECKPOINT_MODELS=(
   "https://civitai.com/api/download/models/1077585?type=Model&format=SafeTensor&size=pruned&fp=fp16"
   #Big Love - XL3
   "https://civitai.com/api/download/models/1744439?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-  
+  # Brix v5
+  "https://civitai.com/api/download/models/239362?type=Model&format=SafeTensor&size=full&fp=fp16"
+  # Brix v4
+  "https://civitai.com/api/download/models/190973?type=Model&format=SafeTensor&size=full&fp=bf16"
 
     )
 
@@ -298,6 +301,7 @@ function provisioning_download() {
 	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/forArt --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 	
 provisioning_start
+
 
 
 

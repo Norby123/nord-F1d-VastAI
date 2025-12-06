@@ -38,7 +38,7 @@ NODES=(
     "https://github.com/yolain/ComfyUI-Easy-Use"
     "https://github.com/logtd/ComfyUI-Fluxtapoz"
 	#"https://github.com/WASasquatch/was-node-suite-comfyui"
-	#"https://github.com/Fannovel16/comfyui_controlnet_aux"
+	"https://github.com/Fannovel16/comfyui_controlnet_aux"
 	"https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
 	"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
 	"https://github.com/sipherxyz/comfyui-art-venture"
@@ -291,3 +291,4 @@ function provisioning_download() {
 
 	
 provisioning_start
+

@@ -255,61 +255,7 @@ function provisioning_download() {
     fi
 }
 
-# Downloading Wan2.2 models
-function provisioning_get_huggingface_models() {
-    printf "Downloading Hugging Face models...\n"
-    
-    # Download main LoRAs
-    printf "Downloading LoRAs from Norby/loras...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/loras
-    
-    # Download WAN 2.2 text encoders
-    printf "Downloading WAN 2.1 text encoders...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.1_ComfyUI_repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/text_encoders \
-        --include "split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
-    
-    # Download WAN 2.2 VAE
-    printf "Downloading WAN 2.1 VAE...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/vae \
-        --include "split_files/vae/wan_2.1_vae.safetensors"
-    
-    # Download WAN 2.2 diffusion models
-    printf "Downloading WAN 2.2 high noise diffusion model...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
-        --include "split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp8_scaled.safetensors"
-    
-    printf "Downloading WAN 2.2 low noise diffusion model...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/diffusion_models \
-        --include "split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp8_scaled.safetensors"
-    
-    # Download WAN 2.2 LoRAs
-    printf "Downloading WAN 2.2 high noise LoRA...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/loras \
-        --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors"
-    
-    printf "Downloading WAN 2.2 low noise LoRA...\n"
-    /opt/environments/python/comfyui/bin/huggingface-cli download Comfy-Org/Wan_2.2_ComfyUI_Repackaged \
-        --cache-dir $WORKSPACE/.cache \
-        --local-dir $WORKSPACE/ComfyUI/models/loras \
-        --include "split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors"
-    
-    printf "Hugging Face models download complete.\n"
-}
-
-
- # Adding the Hugging Face CLI command
+# Adding the Hugging Face CLI command
 #    /opt/environments/python/comfyui/bin/huggingface-cli download Norby/loras --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras
 
 #    /opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/forArt --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/loras/forArt
@@ -335,4 +281,5 @@ function provisioning_get_huggingface_models() {
 #"$COMFYUI_VENV_PIP" install -U xformers (egyelore nem kell mert elrontja)
 	
 provisioning_start
+
 

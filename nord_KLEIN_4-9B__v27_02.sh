@@ -228,6 +228,8 @@ function provisioning_download() {
 
     /opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/KLEIN_text_encoders --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/text_encoders
 
+	/opt/environments/python/comfyui/bin/huggingface-cli download NorbyXL/KLEIN_diffusion_models --cache-dir $WORKSPACE/.cache --local-dir $WORKSPACE/ComfyUI/models/diffusion_models
+
 
 # Allow user to disable provisioning if they started with a script they didn't want
 if [[ ! -f /.noprovisioning ]]; then

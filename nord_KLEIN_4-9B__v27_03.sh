@@ -20,6 +20,11 @@
 
 
 source /venv/main/bin/activate
+
+pip uninstall -y torch torchvision torchaudio
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install -U --pre triton
+
 COMFYUI_DIR=${WORKSPACE}/ComfyUI
 
 # Packages are installed after nodes so we can fix them...

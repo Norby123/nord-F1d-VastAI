@@ -2,13 +2,21 @@
 
 echo "Krea 2 Master Provisioning Script inditasa..."
 
-# Rendszer szintü Python es HuggingFace eleresi utvonalak deffinialasa
+# Rendszer szintü Python eleresi utvonal deffinialasa
 PIP_EXEC="/venv/main/bin/pip"
-HF_EXEC="/venv/main/bin/huggingface-cli"
 
-# 1. Alap csomagok telepitese
+# A legbiztosabb hivas, fuggetlenul attol, hova telepiti a bin-t:
+HF_EXEC="/venv/main/bin/python -m huggingface_hub.cli"
+
+# 1. Alap csomagok ES a HuggingFace letolto telepitese
 apt-get update -y
 apt-get install -y aria2
+
+echo "HuggingFace kliens es sebesseg-gyorsito (hf_transfer) telepitese..."
+$PIP_EXEC install -U "huggingface_hub[cli]" hf_transfer
+
+# Bekapcsoljuk a gigabites letoltest a HF-hez
+export HF_HUB_ENABLE_HF_TRANSFER=1
 
 # 2. ComfyUI frissitese a legujabb verziora (Force Update) - nem jo, mert a vast.ai-nak sajat cloud-gup comfy-ja van. Ez meg az eredetit szedne le. A gombon keresztul kell firssiteni.
 #echo "ComfyUI frissitese..."

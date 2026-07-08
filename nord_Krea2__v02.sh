@@ -94,8 +94,8 @@ aria2c -x 16 -s 16 -k 10M -c --dir="/workspace/ComfyUI/models/upscale_models" "h
 # 7. HuggingFace repok letoltese a VAE es Text Encoder fajlokhoz
 # Ez letolti a megadott repok teljes tartalmat a megfelelo mappakba
 echo "HuggingFace konyvtarak szinkronizalasa a VAE es Text Encoderek szamara..."
-huggingface-cli download NorbyQWEN/Krea2_VAE --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/vae --token $HF_TOKEN
-huggingface-cli download NorbyQWEN/Krea2_text_encoders --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/text_encoders --token $HF_TOKEN
+/venv/main/bin/huggingface-cli download NorbyQWEN/Krea2_VAE --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/vae --token $HF_TOKEN
+/venv/main/bin/huggingface-cli download NorbyQWEN/Krea2_text_encoders --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/text_encoders --token $HF_TOKEN
 
 # 8. (Opcionalis) Alap workflow beallitasa, ha van hozza kulon Krea 2 json fajlod
 # wget -qO- "https://raw.githubusercontent.com/Norby123/nord-F1d-VastAI/refs/heads/main/KREA2_WORKFLOW.json" > /workspace/ComfyUI/web/scripts/defaultGraph.js

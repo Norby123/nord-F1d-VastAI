@@ -11,7 +11,7 @@ apt-get update -y
 apt-get install -y aria2
 
 # Bekapcsoljuk a gigabites letoltest a HF-hez
-export HF_HUB_ENABLE_HF_TRANSFER=1
+#export HF_HUB_ENABLE_HF_TRANSFER=1
 
 # 2. Szukseges mappak elokeszitese
 mkdir -p /workspace/ComfyUI/custom_nodes

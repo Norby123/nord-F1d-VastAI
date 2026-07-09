@@ -82,7 +82,7 @@ aria2c -x 16 -s 16 -k 10M -c --dir="/workspace/ComfyUI/models/upscale_models" "h
 
 # 10. VAE es Text Encoderek szinkronizalasa HuggingFace-rol
 echo "HuggingFace konyvtarak szinkronizalasa a VAE es Text Encoderek szamara..."
-hf download NorbyQWEN/Krea2_VAE --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/vae --token $HF_TOKEN
-hf download NorbyQWEN/Krea2_text_encoders --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/text_encoders --token $HF_TOKEN
+hf download NorbyQWEN/Krea2_VAE --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/vae
+hf download NorbyQWEN/Krea2_text_encoders --cache-dir /workspace/.cache --local-dir /workspace/ComfyUI/models/text_encoders
 
 echo "A ComfyUI kornyezet sikeresen felepitve! A rendszer indul."

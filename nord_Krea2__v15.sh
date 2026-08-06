@@ -69,6 +69,7 @@ cd /workspace/ComfyUI/custom_nodes
 
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
+    "https://github.com/capitan01R/ComfyUI-Krea2T-Enhancer"
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/ClownsharkBatwing/RES4LYF"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"

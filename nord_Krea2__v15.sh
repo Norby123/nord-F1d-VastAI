@@ -70,6 +70,7 @@ cd /workspace/ComfyUI/custom_nodes
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
     "https://github.com/city96/ComfyUI-GGUF"
+    "https://github.com/ClownsharkBatwing/RES4LYF"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding"
     "https://github.com/kijai/ComfyUI-KJNodes"

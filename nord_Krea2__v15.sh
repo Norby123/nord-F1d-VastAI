@@ -69,6 +69,9 @@ cd /workspace/ComfyUI/custom_nodes
 
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
     "https://github.com/capitan01R/ComfyUI-Krea2T-Enhancer"
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/ClownsharkBatwing/RES4LYF"

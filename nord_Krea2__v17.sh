@@ -69,6 +69,7 @@ cd /workspace/ComfyUI/custom_nodes
 
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
+    "https://github.com/lbouaraba/comfyui-krea2edit"
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3"
     "https://github.com/facok/comfyui-krea2-controlnet"
     "https://github.com/harukimix/KreaSeedVarianceEnhancer"

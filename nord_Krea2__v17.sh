@@ -69,6 +69,8 @@ cd /workspace/ComfyUI/custom_nodes
 
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
+    "https://github.com/willmiao/ComfyUI-Lora-Manager"
+    "https://github.com/scraed/LanPaint"
     "https://github.com/lbouaraba/comfyui-krea2edit"
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3"

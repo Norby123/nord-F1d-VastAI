@@ -70,6 +70,7 @@ cd /workspace/ComfyUI/custom_nodes
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
     "https://github.com/lbouaraba/comfyui-krea2edit"
+    "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
     "https://github.com/willmiao/ComfyUI-Lora-Manager"
     "https://github.com/scraed/LanPaint"
     "https://github.com/lbouaraba/comfyui-krea2edit"

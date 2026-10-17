@@ -71,6 +71,7 @@ cd /workspace/ComfyUI/custom_nodes
 CUSTOM_NODES=(
     "https://github.com/spacepxl/ComfyUI-VAE-Utils"
     "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch"
+    "https://github.com/Work-Fisher/ComfyUI-Fisher-Pose"
     "https://github.com/scraed/LanPaint"
     "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler"
     "https://github.com/PozzettiAndrea/ComfyUI-DepthAnythingV3"
